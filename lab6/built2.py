@@ -1,6 +1,6 @@
 strg = input()
 sum = 0
-for let in strg:
-    if(let.isalpha()):
+for i in strg:
+    if 65 <= ord(i) <= 90 or 97 <= ord(i) <= 122:
         sum += 1
 print(sum)
